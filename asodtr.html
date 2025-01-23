@@ -66,6 +66,25 @@
             bottom: 0;
             width: 100%;
         }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #00FF00; /* Green background */
+            color: #000; /* Black text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .back-button:hover {
+            background-color: #00CC00; /* Darker green on hover */
+        }
+        .review img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            border: 1px solid #000; /* Optional border around images */
+            margin-bottom: 10px; /* Space below the image */
+        }
     </style>
 </head>
 <body>
@@ -84,6 +103,7 @@
 
     <h2 id="t40">IBM ThinkPad T40</h2>
     <div class="review">
+        <img src="images/t40.jpg" alt="IBM ThinkPad T40" />
         <h3>Overview</h3>
         <p>The T40 was known for its robust build quality and excellent keyboard. It was a favorite among business professionals.</p>
         <div class="pros">
@@ -99,13 +119,14 @@
             <strong>Cons:</strong>
             <ul>
                 <li>Limited graphics performance</li>
-                <li>Average display quality</li>
+                <li>Average display quality</ li>
             </ul>
         </div>
     </div>
 
     <h2 id="t41">IBM ThinkPad T41</h2>
     <div class="review">
+        <img src="images/t41.jpg" alt="IBM ThinkPad T41" />
         <h3>Overview</h3>
         <p>The T41 improved upon the T40 with better graphics options and a more powerful processor.</p>
         <div class="pros">
@@ -114,35 +135,33 @@
                 <li>Improved graphics performance</li>
                 <li>Solid build quality</li>
                 <li>Good battery life</li>
-                <li>Comfortable keyboard</li>
             </ul>
         </div>
         <div class="cons">
             <strong>Cons:</strong>
             <ul>
-                <li>Heavier than the T40</li>
-                <li>Pricey compared to competitors</li>
+                <li>Heavier than T40</li>
+                <li>Pricey for the specs</li>
             </ul>
         </div>
     </div>
 
     <h2 id="t42">IBM ThinkPad T42</h2>
     <div class="review">
+        <img src="images/t42.jpg" alt="IBM ThinkPad T42" />
         <h3>Overview</h3>
-        <p>The T42 was a refinement of the T41, offering better performance and enhanced features.</p>
+        <p>The T42 was praised for its excellent display and overall reliability, making it a popular choice.</p>
         <div class="pros">
             <strong>Pros:</strong>
             <ul>
-                <li>Excellent performance</li>
-                <li>Great battery life</li>
-                <li>High-quality display</li>
-                <li>Robust security features</li>
+                <li>Great display quality</li>
+                <li>Reliable performance</li>
             </ul>
         </div>
         <div class="cons">
             <strong>Cons:</strong>
             <ul>
-                <li>Can run hot under load</li>
+                <li>Higher price point</li>
                 <li>Limited upgrade options</li>
             </ul>
         </div>
@@ -150,30 +169,30 @@
 
     <h2 id="t43">IBM ThinkPad T43</h2>
     <div class="review">
+        <img src="images/t43.jpg" alt="IBM ThinkPad T43" />
         <h3>Overview</h3>
-        <p>The T43 was one of the last models in the T series before Lenovo took over, known for its reliability and performance.</p>
+        <p>The T43 offered fast performance and excellent customer support, making it a solid investment.</p>
         <div class="pros">
             <strong>Pros:</strong>
             <ul>
-                <li>Strong performance</li>
-                <li>Excellent keyboard</li>
-                <li>Good battery life</li>
-                <li>Durable chassis</li>
+                <li>Fast performance</li>
+                <li>Excellent customer support</li>
             </ul>
         </div>
         <div class="cons">
             <strong>Cons:</strong>
             <ul>
-                <li>Heavier than some competitors</li>
-                <li>Graphics performance could be better</li>
+                <li>Can run hot under load</li>
+                <li>Heavier than previous models</li>
             </ul>
         </div>
     </div>
 
+    <button class="back-button" onclick="window.location.href='index.html'">Back to Home</button>
 </div>
 
 <footer>
-    <p>&copy;2025 AdvaScriptCC®. All right recived.</p>
+    <p>© 2025 AdvaScriptCC®, all rights reserved</p>
 </footer>
 
 </body>
