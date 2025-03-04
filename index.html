@@ -65,6 +65,25 @@
         }
         body.dark-mode marquee {
             color: #0f0;
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #fff;
+            }
+            a {
+                color: rgb(255, 255, 255);
+            }
+            table {
+                background-color: #444;
+                border-color: #fff;
+            }
+            td {
+                border-color: #291700;
+            }
+            marquee {
+                color: #0f0;
+            }
         }
     </style>
 </head>
