@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen Image</title>
+    <title>Download Image</title>
     <style>
         body, html {
             margin: 0;
             height: 100%;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
         }
-        .full-screen-image {
-            width: 100%;
-            height: 100%;
-            background-image: url('откройменя.png');
-            background-size: cover;
-            background-position: center;
+        .download-button {
+            padding: 20px 40px;
+            font-size: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <div class="full-screen-image"></div>
+    <a href="откройменя.png" download class="download-button">Скачать</a>
 </body>
 </html>
